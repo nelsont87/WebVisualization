@@ -1,0 +1,67 @@
+.navbar-brand {
+    display: inline-block;
+    background-color: teal;
+    margin-left: 5%;
+    margin-top: 0;
+    color: white !important;
+    padding: 10px;
+}
+
+.navbar {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 25px;
+    background-color: white !important;
+}
+
+.navbar-nav {
+    position: absolute;
+    right: 2%;
+}
+
+#landingone {
+    float: left;
+    width: 40%;
+    height: 40%;
+}
+
+body {
+    background-color: lightgrey;
+}
+
+.imggrid {
+    width: 45%;
+    height: 45%;
+}
+
+h3 {
+    color: teal;
+}
+
+h5 {
+    color: teal;
+}
+
+#vis {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.grid {
+    width: 45%;
+    height: 45%;
+}
+
+@media (max-width: 768px) {
+    .imggrid{
+        padding-left: 5%;
+        display: inline-block;
+        width: 24%;
+    }
+    .grid {
+        display: flex;
+        align-items: center;
+    }
+}
+
+
